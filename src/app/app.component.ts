@@ -15,5 +15,4 @@ import { Component } from '@angular/core';
 //Properties of components & Methods/Custom Methods/Lifecycle Methods (Similar to react class based components)
 export class AppComponent {
   //Try to use typscript with your components (: string =)
-  title: string = 'Task Tracker';
 }
