@@ -1,1 +1,3 @@
-<p>tasks works!</p>
+<!-- Loop over array to output Tasks -->
+<!--Looping over tasks and passing in a prop of task-->
+<app-task-item *ngFor="let task of tasks" [task]="task"></app-task-item>
